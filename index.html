@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXX-X');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>「Hibino JUNGLE GYM」OPENキャンペーン</title>
+        <style>
+            header {text-align: center;}
+            body {max-width: 1000px;}
+            body {font-family: Arial, "ヒラギノ角ゴ Pron W3", "Hiragino kaku Gothic Pron", "メイリオ", "Meiryo", sans-serif;}
+            img {max-width: 100%;}
+            h1 {color: black;font-weight: bold;font-size: 36px;}
+            h2 {color: black;font-weight: bold;font-size: 24px;text-align: center;}
+            figcaption {font-size: 12px;}
+            footer {text-align: center;}
+            a:hover {background-color: darkblue; color: white;}
+            a:active {background-color: skyblue; color: white;}
+            a{
+                margin: 0 auto;
+                background-color: blue; color: white; font-size: 20px;
+                text-align: center; border-radius: 5px;
+                text-decoration: none; max-width: 300px;
+                display: block;
+                animation: prunprun 2.2s ease-in infinite;
+                -webkit-animation: prunprun 2.2s ease-in infinite;
+                -moz-animation: prunprun 2.2s ease-in infinite;
+                -o-animation: prunprun 2.2s ease-in infinite;
+                -ms-animation: prunprun 2.2s ease-in infinite;
+            }
+
+            @keyframes prunprun {
+                48%, 62% {transform: scale(1.0, 1.0);}
+                50% {transform: scale(1.1, 0.9);}
+                56% {transform: scale(0.0, 1.1);translate:(0, -5px);}
+                59% {transform: scale(1.0, 1.0);translate:(0, -3px);}
+            }
+            @-webkit-keyframes prunprun{
+                48%, 62% {-webkit-transform: scale(1.0, 1.0);}
+                50% {-webkit-transform: scale(1.1, 0.9);}
+                50% {-webkit-transform: scale(0.9, 1.1);translate:(0, -5px);}
+                50% {-webkit-transform: scale(1.0, 1.0);translate:(0, -3px);}
+            }
+            strong.futo {background:linear-gradient(transparent 65%, yellow 65%);}
+            strong.aka {background-color: red;color: white;}
+            .kakomi-box8 {
+                margin: 0 auto;
+                padding: 1em;
+                max-width: 900px;
+                border: 3px dashed #c0c0c0;/*太さ・線種・色*/
+                color: black; /* 文字色 */
+                background-color: #FFF; /* 背景色 */
+                border-radius: 10px; /*角の丸み*/
+                line-height: 36px;
+                text-align: left;
+            }
+            .danbel {float: left;}
+            .clearfix:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            .hukkin {float: right;}
+            form { max-width: 900px; margin: 0 auto;}
+            .centering { text-align: center;}
+            p.service { max-width: 900px; margin: 0 auto;}
+            p.bmi { text-align: left;}
+            @media screen and(max-width:600px){
+                body {font-size: 1.6vw;}
+                h1 {font-size: 3.6vw;}
+                h2 {font-size: 2.4vw;}
+                figcaption {font-size: 1.2vw;}
+                .danbel {float: none;}
+                .hukkin {float: none;}
+                a {font-size: 5.0vw;}
+            }
+        </style>
+        <script>
+        function fncBMI() {
+            var bmi, w, h;
+            w = eval(document.bmi.bmiWeight.value);
+            h = eval(document.bmi.bmiHeight.value)/ 100;
+            bmi = w / (h * h);
+            alert('あなたのBMI値は' + bmi + 'です。');
+            document.bmi.bmiAns.value = bmi;
+        }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>カラダが変革するトレーニング環境!</h1>
+            <figure>
+            <img src="images/6-01-top.png" alt="デキル男は鍛えてる！">
+                <figcaption><figcenter>デキル男は鍛えてる！</figcenter></figcaption>
+            </figure>
+                <p><a href="#cta">＞今すぐ申し込む</a></p>
+        
+            <p>パーソナルトレーニングジム「<strong>Hibino JUNGLE GYM</strong>」では、<br>
+                あなたにあった<strong class="futo">オーダーメイドトレーニングメソッド</strong>により、<br>
+                効果的なボディメイキングが可能です!</p>
+    </header>
+        <main>
+            <div class="kakomi-box8">
+                <figure class="danbel">
+                <img src="images/6-02-ps.png" alt="ダンベル">
+                <figcaption>プライベート空間でも最強のマシンを導入</figcaption>
+                </figure>
+                    <p class="clearfix"><strong class="aka">完全プライベート空間</strong><br><br>
+                
+                完全予約制の個室ですので、人目を気にせず集中してトレーニングができます。<br><br>
+                
+                自分に合った効果的なボディメイキングに興味のある方におすすめです。</p></div>
+            
+            <div class="kakomi-box8">
+            <figure class="hukkin">
+                <img src="images/6-03-cv.png" alt="筋トレ">
+                </figure>
+                <p class="clearfix"><strong class="aka">お客様の声</strong><br><br>
+                
+                とにかくお腹が出ちゃって・・・カウンセリングでBMIを計算してもらったら28とかで、これはマズイと思いましたね。<br>
+                <p>最初はお腹を凹ませたかっただけなんですが、そのうち楽しくなって体がひと回り大きくなりました。<br><br>
+                    
+                    そのおかげで、まわりからも、若くなったとかカッコイイって言われています!うれしいですね。<br>
+                    （40代　会社員・男性）</p>
+                <p><small>※結果には個人差があり、全ての方が同様の結果になるとは限りません。</small></p></div>
+            
+            <div><p><h2>あなたのBMIはいくつ？</h2><br>
+                 <form name="bmi">
+        <p class="bmi">今すぐ計算してみましょう。<br>
+            『BMI＝体重(kg)÷身長(ｍ)×身長(ｍ)』<br><br>
+            体重:<input type="text" name="bmiWeight">kg<br>
+            身長:<input type="text" name="bmiHeight">cm
+            <input type="button" value="計算" onclick="fncBMI()"><br>
+            結果:<input type="text" name="bmiAns"></p>
+        <br><br>
+                
+                <p>BMIが25以上だと、ちょっと肥満気味かもしれません。BMIが18未満の場合は痩せすぎている可能性があります。</p>
+                </form>
+            </div>
+            
+            <div><p><h2>サービスと料金</h2><br>
+                <figure class="centering">
+                <img src="images/6-04-sv.png" alt="サービスと料金">
+                </figure>
+                <p class="service"><strong>■ボディメイキングコース</strong><br>
+                入会金：無料<br>
+                料　金：2ヶ月16回　200,000円（税別）<br>
+                内　容：週2回（1回60分のトレーニング）<br>
+                </p>
+            <p class="service"><strong>■アドバンスドコース</strong><br>
+                    入会金：無料<br>
+                    料　金：2ヶ月24回　380,000円（税別）<br>
+                内　容：週3回（1回90分のトレーニング）<br></p></div>
+            
+            <div><p class="service"><strong>■60日間返金保証</strong><br>
+                当ジムでは、トレーナーの指示通り実践して頂いたにも関わらずプログラムに満足されなかった場合、全額返金させて頂きます。<br>
+                60日間というプログラムが終わるまでの期間が保証対象となりますので、あなたにリスクはなにもありません。安い金額ではありませんので一歩を踏み出せない方にも、安心して体験いただけます。<br><br>
+                
+                あなたが体を鍛えたいとお考えでしたら、一人ひとりに最適なトレーニングを行う<strong>　Hibino JUNGLE GYM　</strong>にお越しください。プロのトレーナーがフルオーダーメイドのメニューを作成しトレーニングを行うため、ご自身のトレーニング方法に悩むことはありません。安全安心して取り組んでいただけます。<br><br>
+                
+                また、お仕事前や帰り、お友達とのお出掛け前や帰り等にも気兼ねなくご利用いただくため、トレーニングウェアやミネラルウォーター、シューズ、タオル等の<strong class="futo">無料レンタル</strong>を行っています。<br><br>
+                
+                ぜひ<strong>　Hibino JUNGLE GYM </strong>までお問い合わせください。</div></p>
+
+        <div><p id="cta"お申込みはこちらから></p>
+                    <a target="_blank"href="https://www.google.co.jp/">お申込みはこちらから</a>
+            </div>
+        </main>
+        <footer><small>&copy;2019 hibi-yoga-studio.</small></footer>
+    </body>
+</html>
